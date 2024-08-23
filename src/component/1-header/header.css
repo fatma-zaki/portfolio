@@ -61,6 +61,7 @@ header .fixed{
      inset: 0;
      background-color: rgba(40, 40, 48, 0.91);
      z-index: 11;
+     backdrop-filter: blur(3px);
 }
 header .fixed ul.modal{
      width: 85%;

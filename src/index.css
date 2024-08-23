@@ -10,6 +10,8 @@
 
      --blue : rgb(93 188 252);
 
+     --icon-hover : #d4d4d8;
+
 }
 *{
      margin: 0;
@@ -19,6 +21,7 @@
 
 html{
      font-family: "Roboto", sans-serif;
+     /* box-sizing: border-box; */
 }
 
 .light{
@@ -36,11 +39,12 @@ body{
      margin-right: auto;
      background-color: var(--secondery);
      margin-top: 0;
+     padding: 1.5rem;
 }
 
 .divider{
      border-bottom: 1px solid var(--border);
-     margin: 3rem 0;
+     margin: 3rem -1.5rem;
 }
 li{
      list-style: none;
@@ -56,4 +60,17 @@ a{
 }
 button{
      all: unset;
+}
+
+
+@media (max-width: 1000px){
+     .container{
+          width: 90%;
+     }
+}
+
+@media (max-width: 600px){
+     .container{
+          width: 96%;
+     }
 }

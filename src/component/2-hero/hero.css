@@ -1,0 +1,68 @@
+section.hero{
+     margin-top: 3rem;
+}
+
+/* ========================
+=> left section
+   =========================*/
+section.hero .left-section{
+flex-grow: 1;
+}
+section.hero .left-section .parent-avatar{
+     align-items: end;
+     gap: 16px;
+}
+section.hero .left-section .avatar{
+     width: 99px;
+     border-radius: 50%;
+     border: 1px solid orange;
+     padding: 1px;
+}
+
+section.hero .left-section .icon-verified{
+     color: var(--blue);
+     font-size: 1.2rem;
+     margin-bottom: 0.3rem;
+}
+
+
+section.hero .left-section h1.title{
+     font-size: 2rem;
+     line-height: 3rem;
+     letter-spacing: 0.1rem;
+     text-transform: capitalize;
+     color: var(--title);
+     margin-top: 1rem ;
+     margin-bottom: 1rem ;
+}
+section.hero .left-section p.sub-title{
+     color: var(--subtitle);
+     font-size: 0.9rem;
+     line-height: 1.5rem;
+     margin-bottom: 1.5rem;
+}
+
+section.hero .left-section .all-icons{
+     font-size: 1.5rem;
+     gap: 1.4rem;
+     color: var(--subtitle);     
+}
+section.hero .left-section .all-icons .icon{
+     cursor: pointer;
+     transition: 0.3s;
+     width: 1.7rem;
+     height: 1.7rem;
+}
+
+section.hero .left-section .all-icons .icon:hover{
+     color: var(--icon-hover);
+     font-size: 1.6rem;
+}
+
+
+
+
+
+/* ========================
+=> Right section
+   =========================*/
