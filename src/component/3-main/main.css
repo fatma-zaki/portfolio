@@ -4,6 +4,7 @@
 
    1- left section => buttons
    2- right section => cards
+   3- Respnosive => media query
  */
 
 main.flex {
@@ -117,7 +118,9 @@ main .right-section {
 .card .box .icons a span {
   align-self: end;
 }
-
+/*============================= 
+  3- Respnosive => media query
+ ==============================*/
 @media (max-width: 600px) {
   main {
     flex-direction: column;
